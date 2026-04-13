@@ -1,0 +1,14 @@
+{
+  "mcpServers": [
+    {
+      "name": "oracle-mcp",
+      "command": "python",
+      "args": ["/path/to/oracle_mcp_server.py"],
+      "env": {
+        "ORACLE_DSN": "YOUR_DB_SERVICE",
+        "TNS_ADMIN": "/path/to/your/oracle_config_folder",
+        "KRB5CCNAME": "/tmp/krb5cc_1000"
+      }
+    }
+  ]
+}
